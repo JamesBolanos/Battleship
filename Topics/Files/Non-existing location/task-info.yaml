@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: b
+- text: a
+- text: a, b, c
+- text: a, c
+- text: None of them
+- text: a, b
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3626#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sun, 25 Sep 2022 20:58:02 UTC
+record: -1
+selected_options:
+- 4
+local_check: false
